@@ -1,5 +1,8 @@
 # Pipelined-RISC-V-core-design
 
+This project is a minimal, didactic RV32I SoC with a 5-stage pipeline (IF, ID, EX, MEM, WB).
+It is intended for learning, simulation, and as a starting point for SoC integration.
+
 Files (Batch 1 - CPU core):
 - rv32i_header.vh : ALU op definitions
 - rv32i_basereg.v : Register file (x0 hardwired to zero)
@@ -20,3 +23,6 @@ Files (Batch 2 - SoC support):
 
 Files (Batch 3 - Testbench):
 - tb_rv32i_soc.v : Testbench that preloads program and verifies result
+
+
+
